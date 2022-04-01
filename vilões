@@ -1,0 +1,10 @@
+import time
+print("AVISO URGENTE! \n UM GRUPO DE VILÕES CHEGOU ATÉ O LOCAL DO CONVÉS!") 
+time.sleep(1)
+print("Inicializando escaneamento facial... \n por favor aguarde...")
+time.sleep(2)
+print("Escaneamento concluido!")
+time.sleep(1)
+print("ULTRON, CORINGA, ABUTRE, DOUTOR OCTOPUS.")
+time.sleep(1)
+w = input("Deseja liberar o grupo de super-heróis para contra atacar? ")
