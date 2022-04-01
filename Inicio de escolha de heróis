@@ -1,0 +1,22 @@
+print ("SISTEMA ABERTO")
+
+a = input("Como você quer ser chamado? ")
+
+print ("ALERTA!")
+print ("SR(SRA)", a, ", RECEBEMOS UMA NOTIFICAÇÃO DE EMERGÊNCIA NO CANAL DE SUEZ (EGITO), UM NAVIO CHAMADO EVER GIVEN ENCALHOU ENQUANTO NAVEGAVA \n PARA O MEDITERRÂNEO, COMO MEMBRO DA AGÊNCIA DE HERÓIS, PEDIMOS PARA QUE ENVIEM UM GRUPO DE SUPER-HERÓIS AO LOCAL PARA LIBERAR A PASSAGEM!")
+
+print ("No momento temos os seguintes grupos disponiveis:")
+e = print ("Grupo 1: Dr. Estranho, Wanda, Aquaman, Thor.")
+l = print ("Grupo 2: Cyborg, Hulk, Capitão América, Mulher Maravilha.")
+q = print ("Grupo 3: Flash, Batman, Homem de Ferro, Homem Aranha.")
+
+p = int(input("Digite o número 1, 2 ou 3 para escolher uma equipe:"))
+
+if p == 1:
+  print("Equipe selecionada: Dr. Estranho, Wanda, Aquaman, Thor.")
+if p == 2:
+  print("Equipe selecionada: Cyborg, Hulk, Capitão América, Mulher Maravilha.")
+if p == 3:
+  print("Equipe selecionada: Flash, Batman, Homem de Ferro, Homem Aranha.")
+
+o = input("Deseja confirmar sua escolha?")
